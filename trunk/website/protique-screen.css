@@ -232,6 +232,32 @@ acronym, .titleTip {
   margin: 2.75ex 1ex 0 0;  /* For fully standards-compliant user agents */
 }
 
+
+/** hack to avoid outline on images on partners page on Mozilla / Firefox */
+a {
+  background-color: transparent;
+  text-decoration: none;
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 0px;
+  border-botton: 0px;
+  padding: none;
+  margin: none;
+}
+
+img {
+  color: #CC4800;
+  background-color: transparent;
+  text-decoration: none;
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 0px;
+  border-botton: 0px;
+  padding: none;
+  margin: none;
+}
+
+
 dl {
   margin: 1em 1ex 2em 1ex;
   padding: 0;
