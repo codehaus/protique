@@ -235,6 +235,7 @@ acronym, .titleTip {
 
 /** hack to avoid outline on images on partners page on Mozilla / Firefox */
 a {
+  color: transparent;
   background-color: transparent;
   text-decoration: none;
   border-left: 0px;
@@ -246,7 +247,7 @@ a {
 }
 
 img {
-  color: #CC4800;
+  color: transparent;
   background-color: transparent;
   text-decoration: none;
   border-left: 0px;
@@ -256,6 +257,7 @@ img {
   padding: none;
   margin: none;
 }
+/** end mozilla hack */
 
 
 dl {
