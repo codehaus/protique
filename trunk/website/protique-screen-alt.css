@@ -34,7 +34,7 @@ acronym, .titleTip {
 
 .superHeader {
   color: white;
-  background-color: #CC4800;
+  background-color: #CF3B21;
   height: 2em;
 }
 
@@ -116,7 +116,7 @@ body > #side-bar {
 
 .sideBarTitle {
   color: white;
-  background-color: #CC4800;
+  background-color: #CF3B21;
   font-weight: bold;
   margin: 0;
   padding: 0.4ex 0 0.4ex 0.6ex;
@@ -135,7 +135,7 @@ body > #side-bar {
 }
 
 #side-bar a, .thisPage {
-  color: #CC4800;
+  color: #CF3B21;
   background-color: transparent;
   text-decoration: none;
   font-weight: bold;
@@ -151,7 +151,7 @@ body > #side-bar {
 
 #side-bar a:hover {
   color: white;
-  background-color: #CC4800;
+  background-color: #CF3B21;
   text-decoration: none;
 }
 
@@ -175,7 +175,7 @@ body > #side-bar {
 }
 
 #side-bar .sideBarText a:hover {
-  color: #CC4800;
+  color: #CF3B21;
   background-color: transparent;
   text-decoration: none;
 }
@@ -204,7 +204,7 @@ body > #side-bar {
 }
 
 #main-copy a {
-  color: #CC4800;
+  color: #CF3B21;
   background-color: transparent;
   text-decoration: underline;
 }
@@ -214,17 +214,17 @@ body > #side-bar {
 }
 
 #main-copy h1 {
-  color: #CC4800;
+  color: #CF3B21;
   background-color: transparent;
   font-size: 145.5%;
   font-weight: bold;
   margin: 2em 0 0 0;
   padding: 0.5ex 0 0.5ex 0.6ex;
-  border-bottom: 1px solid #CC4800;
+  border-bottom: 1px solid #CF3B21;
 }
 
 #main-copy .topOfPage {
-  color: #CC4800;
+  color: #CF3B21;
   background-color: transparent;
   font-size: 91%;
   font-weight: bold;
@@ -255,7 +255,7 @@ dd {
 
 #footer {
   color: white;
-  background-color: #CC4800;
+  background-color: #CF3B21;
   font-size: 91%;
   margin: 0;
   padding: 1em 2.5mm 2.5ex 2.5mm;
