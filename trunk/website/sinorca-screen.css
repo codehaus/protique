@@ -201,7 +201,7 @@ acronym, .titleTip {
 }
 
 #main-copy p {
-  margin: 1em 1ex 2em 1ex;
+  margin: 1em 1ex 1em 1ex;
   padding: 0;
 }
 
@@ -251,7 +251,7 @@ dt {
 }
 
 dd {
-  margin: 0 0 2em 2em;
+  margin: 0 0 1em 2em;
   padding: 0;
 }
 
