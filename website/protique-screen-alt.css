@@ -1,15 +1,8 @@
-/*************************************
- * TITLE: Sinorca Screen Stylesheet  *
- * URI  : sinorca/sinorca-screen.css *
- * MODIF: 2003-Apr-30 19:31 +0800    *
- *************************************/
-
-
 /* ##### Common Styles ##### */
 
 body {
   color: black;
-  background-color: rgb(240,240,240);
+  background-color: white;
   font-family: verdana, helvetica, arial, sans-serif;
   font-size: 71%;  /* Enables font size scaling in MSIE */
   margin: 0;
@@ -41,7 +34,7 @@ acronym, .titleTip {
 
 .superHeader {
   color: white;
-  background-color: rgb(100,135,220);
+  background-color: #CC4800;
   height: 2em;
 }
 
@@ -71,8 +64,8 @@ acronym, .titleTip {
 }
 
 .midHeader {
-  color: rgb(39,78,144);
-  background-color: rgb(140,170,230);
+  color: #333333;
+  background-color: #FFFFFF;
 }
 
 .headerTitle {
@@ -84,7 +77,7 @@ acronym, .titleTip {
 
 .subHeader {
   color: white;
-  background-color: rgb(0,51,153);
+  background-color: #333333;
   margin: 0;
   padding: 1ex 1ex 1ex 1.5mm;
 }
@@ -96,7 +89,7 @@ acronym, .titleTip {
   font-weight: bold;
   margin: 0;
   padding: 0 0.75ex 0 0.5ex;
-}  
+}
 
 .subHeader a:hover {
   text-decoration: underline;
@@ -108,83 +101,83 @@ acronym, .titleTip {
 }
 
 
-/* ##### Side Bar ##### */
+/* ##### Side Boxes ##### */
 
 #side-bar {
-  width: 15em;
+  width: 14em;
+  margin: 2.5em 0 0 1.25mm;
   float: left;
   clear: left;
-  border-right: 1px solid rgb(153,153,153);
 }
 
-#side-bar div {
-  border-bottom: 1px solid rgb(153,153,153);
+body > #side-bar {
+  margin-left: 2.5mm;  /* Circumvents a rendering bug in MSIE (6.0) */
 }
 
 .sideBarTitle {
+  color: white;
+  background-color: #CC4800;
   font-weight: bold;
-  margin: 0 0 0.5em 2.5mm;
-  padding: 1em 0 0 0;
+  margin: 0;
+  padding: 0.4ex 0 0.4ex 0.6ex;
 }
 
 #side-bar ul {
   list-style-type: none;
   list-style-position: outside;
   margin: 0;
-  padding: 0 0 1.1em 0;
+  padding: 0 0 2.25em 0;
 }
 
 #side-bar li {
   margin: 0;
-  padding: 0.1ex 0;  /* Circumvents a rendering bug (?) in MSIE 6.0 */
+  padding: 0.1ex 0;  /* Circumvents a rendering bug (?) in MSIE (6.0) */
 }
 
 #side-bar a, .thisPage {
-  color: rgb(0,102,204);
+  color: #CC4800;
   background-color: transparent;
   text-decoration: none;
+  font-weight: bold;
   margin: 0;
-  padding: 0.75em 1ex 0.75em 5mm;
+  padding: 1.3ex 2ex;
   display: block;
 }
 
 .thisPage {
   color: black;
-  background-color: white;
-  padding-left: 4mm;
-  border-top: 1px solid rgb(153,153,153);
-  border-bottom: 1px solid rgb(153,153,153);
+  background-color: transparent;
 }
 
 #side-bar a:hover {
   color: white;
-  background-color: rgb(100,135,220);
+  background-color: #CC4800;
   text-decoration: none;
 }
 
 .sideBarText {
   line-height: 1.5em;
-  margin: 0 0 1em 0;
-  padding: 0 1.5ex 0 2.5mm;
+  margin: 0 0 2.5em 0;
+  padding: 1ex 0.5ex 0 0.5ex;
   display: block;
+}
+
+.sideBarText + .sideBarText {  /* Not recognised by MSIE (6.0) */
+  margin-top: -1.5em;
 }
 
 #side-bar .sideBarText a {
   text-decoration: underline;
+  font-weight: normal;
   margin: 0;
   padding: 0;
   display: inline;
 }
 
 #side-bar .sideBarText a:hover {
-  color: rgb(0,102,204);
+  color: #CC4800;
   background-color: transparent;
   text-decoration: none;
-}
-
-.lighterBackground {
-  color: inherit;
-  background-color: white;
 }
 
 
@@ -192,51 +185,53 @@ acronym, .titleTip {
 
 #main-copy {
   color: black;
-  background-color: white;
+  background-color: transparent;
   text-align: justify;
   line-height: 1.5em;
-  margin: 0 0 0 15em;
+  margin: -1em 0 0 15em;
   padding: 0.5mm 5mm 5mm 5mm;
-  border-left: 1px solid rgb(153,153,153);
 }
 
+#bodyText {
+  margin: 0 0 0 15.5em;
+  padding: 2mm 5mm 2mm 5mm;
+}
+
+
 #main-copy p {
-  margin: 1em 1ex 1em 1ex;
+  margin: 1em 1ex 2em 1ex;
   padding: 0;
 }
 
 #main-copy a {
-  color: rgb(0,102,204);
+  color: #CC4800;
   background-color: transparent;
   text-decoration: underline;
 }
 
 #main-copy a:hover {
-  text-decoration: none;
+  background-color: #CCCCCC;
 }
 
 #main-copy h1 {
-  color: white;
-  background-color: rgb(100,135,220);
-  font-size: 100%;
+  color: #CC4800;
+  background-color: transparent;
+  font-size: 145.5%;
   font-weight: bold;
-  margin: 3em 0 0 0;
-  padding: 0.5ex 0 0.5ex 1ex;
+  margin: 2em 0 0 0;
+  padding: 0.5ex 0 0.5ex 0.6ex;
+  border-bottom: 1px solid #CC4800;
 }
 
 #main-copy .topOfPage {
-  color: white;
+  color: #CC4800;
   background-color: transparent;
   font-size: 91%;
   font-weight: bold;
   text-decoration: none;
-  margin: 2.5ex 1ex 0 0;  /* For MSIE */
+  margin: 3ex 1ex 0 0;
   padding: 0;
   float: right;
-}
-
-#main-copy > .topOfPage {
-  margin: 2.75ex 1ex 0 0;  /* For fully standards-compliant user agents */
 }
 
 dl {
@@ -251,7 +246,7 @@ dt {
 }
 
 dd {
-  margin: 0 0 1em 2em;
+  margin: 0 0 2em 2em;
   padding: 0;
 }
 
@@ -260,7 +255,7 @@ dd {
 
 #footer {
   color: white;
-  background-color: rgb(100,135,220);
+  background-color: #CC4800;
   font-size: 91%;
   margin: 0;
   padding: 1em 2.5mm 2.5ex 2.5mm;
@@ -268,6 +263,7 @@ dd {
 }
 
 #footer .left {
+  text-align: left;
   line-height: 1.45em;
   float: left;
   clear: left;
